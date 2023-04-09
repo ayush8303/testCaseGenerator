@@ -13,7 +13,7 @@ mt19937 rng2(chrono::high_resolution_clock::now().time_since_epoch().count());
 
 unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
 std::default_random_engine randomShuffle(seed);
-// std::shuffle(std::begin(a), std::end(a), rng);
+// std::shuffle(std::begin(a), std::end(a), randomShuffle);
 
 int getRandomNumber(int l, int r) { return uniform_int_distribution<int>(l, r)(rng); }
 
