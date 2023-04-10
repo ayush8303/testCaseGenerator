@@ -59,7 +59,8 @@ int32_t main()
   {
     int n = getRandomNumber(100000, 100000);
     cout << n << endl;
-
+     
+    //node values
     for (int i = 0; i < n; i++)
     {
       cout << getRandomNumber(100000, 1000000) << ' ';
