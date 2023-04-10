@@ -89,6 +89,7 @@ int32_t main()
     {
       cout << it[0] << ' ' << it[1] << endl;
     }
+    // queries
     int Q = getRandomNumber(100000, 100000);
     cout << Q << endl;
     for (int i = 0; i < Q; i++)
